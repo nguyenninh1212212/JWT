@@ -2,7 +2,7 @@ import express from "express";
 import jwt from "jsonwebtoken"
 import dotenv from "dotenv"
 
-dotenv.config()
+dotenv.config();
 const app=express()
 
 const port=1010
